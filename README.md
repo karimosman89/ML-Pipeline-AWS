@@ -66,11 +66,12 @@ python src/deploy_model.py
 ## GitHub Actions
 The project includes a GitHub Actions workflow (aws_pipeline.yml) that automates the CI/CD process for the pipeline. It runs on code pushes to the main branch and executes the following steps:
 
-# Checkout the code
-# Install dependencies
-# Preprocess data
-# Train the model
-# Deploy the model
+### Checkout the code
+### Install dependencies
+### Preprocess data
+### Train the model
+### Deploy the model
+
 ## License
    This project is licensed under the MIT License. See the LICENSE file for details.
 
