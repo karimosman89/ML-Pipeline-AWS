@@ -7,7 +7,7 @@ def deploy_model():
     
     # Here you would implement the code to deploy the model using AWS SageMaker
     # This is a placeholder for the actual deployment code
-   boto3.client('sagemaker').create_model(...)
+    # boto3.client('sagemaker').create_model(...)
     
 if __name__ == "__main__":
     deploy_model()
