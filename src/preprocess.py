@@ -12,7 +12,7 @@ df.columns = df.columns.str.strip()  # Remove leading/trailing spaces from colum
 df.columns = df.columns.str.lower()  # Convert column names to lowercase for consistency
 
 # Specify the correct column names based on your dataset
-categorical_columns = ['state', 'gender']  # Use lowercase since we converted all columns
+categorical_columns = ['state', 'area code']  # Use lowercase since we converted all columns
 
 # Use LabelEncoder for ordinal encoding
 label_encoder = LabelEncoder()
