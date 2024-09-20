@@ -4,16 +4,24 @@ from sklearn.preprocessing import LabelEncoder
 # Load the data
 df = pd.read_csv('data/customer_data.csv')
 
-# Handle categorical data with LabelEncoder or pd.get_dummies()
-categorical_columns = ['State', 'Gender']  # Add relevant columns here
+# Print the column names to debug the issue
+print("Column names in the dataset:", df.columns)
 
-# Option 1: Use LabelEncoder for ordinal encoding
+# Handle common column name variations (e.g., lower/upper case, spaces)
+df.columns = df.columns.str.strip()  # Remove leading/trailing spaces from column names
+df.columns = df.columns.str.lower()  # Convert column names to lowercase for consistency
+
+# Specify the correct column names based on your dataset
+categorical_columns = ['state', 'gender']  # Use lowercase since we converted all columns
+
+# Use LabelEncoder for ordinal encoding
 label_encoder = LabelEncoder()
 for column in categorical_columns:
-    df[column] = label_encoder.fit_transform(df[column])
-
-# Option 2: Use one-hot encoding if categorical data has no ordinal relationship
-df = pd.get_dummies(df, columns=categorical_columns)
+    if column in df.columns:
+        df[column] = label_encoder.fit_transform(df[column])
+    else:
+        print(f"Warning: '{column}' column not found in the dataset!")
 
 # Save the processed data
 df.to_csv('data/processed_data.csv', index=False)
+
