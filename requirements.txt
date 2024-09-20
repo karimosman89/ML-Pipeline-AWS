@@ -1,1 +1,5 @@
-
+boto3                 # AWS SDK for Python to interact with SageMaker
+pandas                # For data manipulation and analysis
+scikit-learn          # For machine learning algorithms and model evaluation
+joblib                # For saving and loading the trained model
+pytest                # For testing your code (optional, but good for CI)
