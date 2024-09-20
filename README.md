@@ -49,8 +49,9 @@ This project implements an end-to-end machine learning pipeline designed to pred
     pip install -r requirements.txt
 
 3. Build the Docker image:
-     docker build -t ml-pipeline-aws .
-Usage
+     docker build -t ml-pipeline-aws.
+   
+### Usage
 1. Preprocess the data:
 
 python src/preprocess.py
