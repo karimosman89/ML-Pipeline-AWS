@@ -11,7 +11,11 @@ This project implements an end-to-end machine learning pipeline designed to pred
 - **Monitoring**: Set up monitoring and logging for performance evaluation and alerts.
 
 ## Project Structure
- ML-Pipeline-AWS/ │ ├── data/ │ └── customer_data.csv 
+    ML-Pipeline-AWS/ 
+                   │ 
+                   ├── data/
+                           │ 
+                           └── customer_data.csv 
  # Sample customer data for analysis │ ├── src/ │ ├── preprocess.py
  # Data preprocessing script │ ├── train_model.py 
  # Model training script │ └── deploy_model.py 
