@@ -46,23 +46,25 @@ This project implements an end-to-end machine learning pipeline designed to pred
    cd ML-Pipeline-AWS
 
 2. Install the required Python packages:
-    pip install -r requirements.txt
+   
+       pip install -r requirements.txt
 
 3. Build the Docker image:
-     docker build -t ml-pipeline-aws.
+   
+      docker build -t ml-pipeline-aws.
    
 ### Usage
 1. Preprocess the data:
 
-python src/preprocess.py
+      python src/preprocess.py
 
 2. Train the model:
 
-python src/train_model.py
+     python src/train_model.py
 
 3. Deploy the model:
 
-python src/deploy_model.py
+     python src/deploy_model.py
 
 ## GitHub Actions
 The project includes a GitHub Actions workflow (aws_pipeline.yml) that automates the CI/CD process for the pipeline. It runs on code pushes to the main branch and executes the following steps:
@@ -83,12 +85,12 @@ The project includes a GitHub Actions workflow (aws_pipeline.yml) that automates
 
 
 ### Key Improvements:
-- **Overview**: Added an introductory section that explains the project purpose and functionality.
+- **Overview**: Added an introductory section explaining the project's purpose and functionality.
 - **Structured Components**: Enhanced clarity by specifying what each component entails.
 - **Project Structure**: Improved formatting and descriptions to make it more informative.
-- **Getting Started Section**: Added prerequisites, installation steps, and usage instructions for ease of understanding.
+- **Getting Started Section**: Added prerequisites, installation steps, and usage instructions for easy understanding.
 - **GitHub Actions Section**: Clarified how CI/CD is implemented in the project.
-- **License and Acknowledgments**: Included sections for licensing and acknowledgment, which are good practices for open-source projects.
+- **License and Acknowledgments**: Sections for licensing and acknowledgment are included, which are good practices for open-source projects.
 
-This format will make your README more informative and professional, helping users and colla   
+This format will make your README more informative and professional, helping users and colleagues   
             
