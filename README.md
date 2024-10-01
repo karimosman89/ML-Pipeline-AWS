@@ -50,24 +50,28 @@ This project implements an end-to-end machine learning pipeline designed to pred
        pip install -r requirements.txt
 
 3. Build the Docker image:
+
    
-      docker build -t ml-pipeline-aws.
+       docker build -t ml-pipeline-aws.
    
 ### Usage
 1. Preprocess the data:
 
-      python src/preprocess.py
+
+        python src/preprocess.py
 
 2. Train the model:
 
-     python src/train_model.py
+
+       python src/train_model.py
 
 3. Deploy the model:
 
-     python src/deploy_model.py
+
+       python src/deploy_model.py
 
 ## GitHub Actions
-The project includes a GitHub Actions workflow (aws_pipeline.yml) that automates the CI/CD process for the pipeline. It runs on code pushes to the main branch and executes the following steps:
+The project includes a GitHub Actions workflow (aws_pipeline.yml) that automates the CI/CD process for the pipeline. It runs on code pushed to the main branch and executes the following steps:
 
 ### Checkout the code
 ### Install dependencies
@@ -79,6 +83,7 @@ The project includes a GitHub Actions workflow (aws_pipeline.yml) that automates
    This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgments
+
  1- AWS Documentation for resources on AWS services.
  2- Scikit-learn for machine learning algorithms.
 
