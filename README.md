@@ -42,7 +42,7 @@ This project implements an end-to-end machine learning pipeline designed to pred
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/ML-Pipeline-AWS.git
+   git clone https://github.com/karimosman89/ML-Pipeline-AWS.git
    cd ML-Pipeline-AWS
 
 2. Install the required Python packages:
