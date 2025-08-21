@@ -1,0 +1,28 @@
+2025-08-21 21:14:54,418 - INFO - 🎯 Enhanced Data Preprocessing for Customer Churn Prediction
+2025-08-21 21:14:54,419 - INFO - ============================================================
+2025-08-21 21:14:54,419 - INFO - 🚀 Starting complete preprocessing pipeline...
+2025-08-21 21:14:54,419 - INFO - 📁 Loading data from: data/customer_data.csv
+2025-08-21 21:14:54,450 - INFO - ✅ Data loaded: 2,666 rows, 20 columns
+2025-08-21 21:14:54,451 - INFO - 🔄 Starting data preprocessing pipeline...
+2025-08-21 21:14:54,462 - INFO - 📝 Standardized column names
+2025-08-21 21:14:54,462 - INFO - 🔧 Creating interaction features...
+2025-08-21 21:14:54,523 - INFO - ✅ Created interaction features
+2025-08-21 21:14:54,528 - INFO - 🧹 Removing redundant features...
+2025-08-21 21:14:54,552 - INFO - 🗑️  Removing 5 highly correlated features
+2025-08-21 21:14:54,555 - INFO - ✅ Preprocessing complete: 19 features
+2025-08-21 21:14:54,555 - INFO - ✂️ Splitting data...
+2025-08-21 21:14:54,565 - INFO - 📊 Train set: 2,132 samples
+2025-08-21 21:14:54,565 - INFO - 📊 Test set: 534 samples
+2025-08-21 21:14:54,566 - INFO - ⚖️ Applying smote balancing...
+2025-08-21 21:14:54,580 - INFO - 📊 Original class distribution: {0: 1822, 1: 310}
+2025-08-21 21:14:54,611 - INFO - 📊 Balanced class distribution: {0: 1822, 1: 1822}
+2025-08-21 21:14:54,611 - INFO - 📏 Scaling features using robust method...
+2025-08-21 21:14:54,637 - INFO - ✅ Scaled 18 numerical features
+2025-08-21 21:14:54,925 - INFO - 💾 Saving preprocessing artifacts to models/
+2025-08-21 21:14:54,928 - INFO - ✅ All preprocessing artifacts saved
+2025-08-21 21:14:54,928 - INFO - ✅ Complete preprocessing pipeline finished successfully!
+2025-08-21 21:14:54,929 - INFO - 
+📊 Final Processing Summary:
+2025-08-21 21:14:54,929 - INFO -    • Training samples: 3,644
+2025-08-21 21:14:54,929 - INFO -    • Test samples: 534
+2025-08-21 21:14:54,929 - INFO -    • Features: 18

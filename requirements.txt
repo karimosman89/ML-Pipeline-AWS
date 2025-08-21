@@ -3,3 +3,19 @@ pandas                # For data manipulation and analysis
 scikit-learn          # For machine learning algorithms and model evaluation
 joblib                # For saving and loading the trained model
 pytest                # For testing your code (optional, but good for CI)
+numpy                 # For numerical computations
+matplotlib            # For data visualization
+seaborn              # For enhanced data visualization
+imbalanced-learn     # For handling class imbalance
+flask                # For web application development
+gunicorn             # For production web server
+plotly               # For interactive visualizations
+dash                 # For web dashboards
+fastapi              # For modern API development
+uvicorn              # ASGI server for FastAPI
+pydantic             # For data validation
+python-multipart     # For form data handling
+aiofiles             # For async file operations
+prometheus-client    # For monitoring metrics
+psutil               # For system monitoring
+requests             # For HTTP requests

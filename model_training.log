@@ -1,0 +1,48 @@
+2025-08-21 21:15:01,260 - INFO - 🎯 Advanced Model Training for Customer Churn Prediction
+2025-08-21 21:15:01,261 - INFO - ======================================================================
+2025-08-21 21:15:01,261 - INFO - 🔧 Initializing model portfolio...
+2025-08-21 21:15:01,261 - INFO - ✅ Initialized 3 models
+2025-08-21 21:15:01,261 - INFO - 📁 Loading processed data from data/
+2025-08-21 21:15:01,293 - INFO - ✅ Data loaded: Train(3644, 18), Test(534, 18)
+2025-08-21 21:15:01,293 - INFO - 
+🚀 Starting model training pipeline...
+2025-08-21 21:15:01,293 - INFO - 🎯 Starting comprehensive model training...
+2025-08-21 21:15:01,293 - INFO - 🚀 Training RandomForest...
+2025-08-21 21:15:02,702 - INFO - 🔄 Performing 5-fold cross-validation...
+2025-08-21 21:15:17,209 - INFO - ✅ RandomForest training complete in 1.25s
+2025-08-21 21:15:17,209 - INFO - 📊 Test F1-Score: 0.9486
+2025-08-21 21:15:17,210 - INFO - 🚀 Training GradientBoosting...
+2025-08-21 21:15:19,201 - INFO - 🔄 Performing 5-fold cross-validation...
+2025-08-21 21:15:39,088 - INFO - ✅ GradientBoosting training complete in 1.95s
+2025-08-21 21:15:39,089 - INFO - 📊 Test F1-Score: 0.9377
+2025-08-21 21:15:39,089 - INFO - 🚀 Training LogisticRegression...
+2025-08-21 21:15:39,784 - INFO - 🔄 Performing 5-fold cross-validation...
+2025-08-21 21:15:42,238 - INFO - ✅ LogisticRegression training complete in 0.66s
+2025-08-21 21:15:42,238 - INFO - 📊 Test F1-Score: 0.7443
+2025-08-21 21:15:42,239 - INFO - 
+============================================================
+2025-08-21 21:15:42,239 - INFO - 📊 MODEL COMPARISON REPORT
+2025-08-21 21:15:42,239 - INFO - ============================================================
+2025-08-21 21:15:42,241 - INFO - 
+🏆 Model Rankings (by Test F1-Score):
+2025-08-21 21:15:42,248 - INFO -              Model  Test_Accuracy  Test_F1  Test_Precision  Test_Recall  Test_ROC_AUC  CV_F1_Mean  Training_Time
+      RandomForest         0.9513   0.9486          0.9506       0.9513        0.8735      0.9451         1.2532
+  GradientBoosting         0.9382   0.9377          0.9373       0.9382        0.8848      0.8994         1.9454
+LogisticRegression         0.7041   0.7443          0.8294       0.7041        0.7234      0.7350         0.6642
+2025-08-21 21:15:42,248 - INFO - 
+🥇 Best Model: RandomForest
+2025-08-21 21:15:42,249 - INFO -    • Test F1-Score: 0.9486
+2025-08-21 21:15:42,249 - INFO -    • Test Accuracy: 0.9513
+2025-08-21 21:15:42,249 - INFO -    • Test ROC-AUC: 0.8735
+2025-08-21 21:15:42,250 - INFO - 🤝 Creating ensemble with models: ['RandomForest', 'GradientBoosting', 'LogisticRegression']
+2025-08-21 21:15:42,250 - INFO - ✅ Ensemble created with 3 models
+2025-08-21 21:15:42,250 - INFO - 🔄 Training ensemble model...
+2025-08-21 21:15:45,804 - INFO - 🤝 Ensemble Performance:
+2025-08-21 21:15:45,804 - INFO -    • Accuracy: 0.9232
+2025-08-21 21:15:45,805 - INFO -    • F1-Score: 0.9230
+2025-08-21 21:15:45,805 - INFO -    • ROC-AUC: 0.8661
+2025-08-21 21:15:45,917 - INFO - 💾 Saving 3 trained models to models/
+2025-08-21 21:15:46,019 - INFO - ✅ All models and results saved
+2025-08-21 21:15:46,019 - INFO - 
+✅ Model training pipeline completed successfully!
+2025-08-21 21:15:46,019 - INFO - 📊 Total models trained: 3
