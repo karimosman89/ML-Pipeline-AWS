@@ -332,7 +332,7 @@ gunicorn -w 4 -k uvicorn.workers.UvicornWorker src.api_server:app --bind 0.0.0.0
 
 ## 🌟 **Ready to Transform Customer Retention?**
 
-### **[🚀 CLONE REPOSITORY](https://github.com/karimosman89/ML-Pipeline-AWS)** | **[📖 VIEW CODE](https://github.com/karimosman89/ML-Pipeline-AWS/tree/main/src)** | **[💼 CONTACT](mailto:contact@company.com)**
+### **[🚀 CLONE REPOSITORY](https://github.com/karimosman89/ML-Pipeline-AWS)** | **[📖 VIEW CODE](https://github.com/karimosman89/ML-Pipeline-AWS/tree/main/src)** | **[💼 CONTACT](mailto:karim.programmer2020@gmail.com)**
 
 *Professional Machine Learning Platform • Enterprise Grade • Production Ready*
 
@@ -360,6 +360,6 @@ gunicorn -w 4 -k uvicorn.workers.UvicornWorker src.api_server:app --bind 0.0.0.0
 - Enterprise ML solution consulting
 - Sponsorship and partnership opportunities
 
-**📧 Connect:** [karimosman89@github.com](mailto:karimosman89@github.com)
+**📧 Connect:** [karim.programmer2020@gmail.com](mailto:karim.programmer2020@gmail.com)
 **🔗 GitHub:** [https://github.com/karimosman89](https://github.com/karimosman89)
 **💼 Project:** [https://github.com/karimosman89/ML-Pipeline-AWS](https://github.com/karimosman89/ML-Pipeline-AWS)
